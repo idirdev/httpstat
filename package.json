@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/httpstat",
+  "version": "1.0.0",
+  "description": "HTTP request timing breakdown — measures DNS, TCP, TLS, TTFB and transfer phases.",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/httpstat.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "httpstat": "./bin/cli.js"
+  }
+}
